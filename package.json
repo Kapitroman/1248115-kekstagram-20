@@ -1,11 +1,11 @@
 {
-  "name": "kekstagram",
+  "name": "q",
   "version": "19.0.0",
   "private": true,
   "description": "Личный проект «Кекстаграм» от HTML Academy",
   "repository": {
     "type": "git",
-    "url": "git@github.com:htmlacademy-javascript/1248115-kekstagram-20.git"
+    "url": "git+ssh://git@github.com/htmlacademy-javascript/1248115-kekstagram-20.git"
   },
   "bugs": {
     "url": "https://github.com/htmlacademy-javascript/1248115-kekstagram-20/issues"
@@ -21,5 +21,8 @@
   },
   "engines": {
     "node": "8.11"
-  }
+  },
+  "homepage": "https://github.com/htmlacademy-javascript/1248115-kekstagram-20#readme",
+  "main": "q",
+  "author": ""
 }
