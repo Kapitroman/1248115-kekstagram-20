@@ -24,7 +24,7 @@
     for (var i = 0; i < data.length; i++) {
       fragment.appendChild(renderUserPicture(data[i]));
     }
-    window.main.containerPictures.appendChild(fragment);
+    window.dataProject.containerPictures.appendChild(fragment);
   };
 
 })();
