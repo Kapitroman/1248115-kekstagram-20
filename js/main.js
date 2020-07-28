@@ -7,8 +7,8 @@
   var main = document.querySelector('main');
 
   var templateError = document.querySelector('#error')
-  .content
-  .querySelector('.error');
+    .content
+    .querySelector('.error');
 
   function onSuccess(data) {
     serverData = data;

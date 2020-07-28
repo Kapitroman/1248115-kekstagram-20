@@ -48,14 +48,21 @@
 
   });
 
+  function closePopUp() {
+    bigPicture.classList.add('hidden');
+    window.dataProject.body.classList.remove('modal-open');
+    bigPictureCancel.removeEventListener('click', onButtonCancelClick);
+    document.removeEventListener('keydown', onButtonCancelPressEsc);
+  }
+
   function onButtonCancelClick() {
-    window.utils.closePopUp(bigPicture, bigPictureCancel, onButtonCancelClick, onButtonCancelPressEsc);
+    closePopUp();
   }
 
   function onButtonCancelPressEsc(evt) {
     if (evt.key === 'Escape' && !bigPicture.classList.contains('hidden')) {
       evt.preventDefault();
-      window.utils.closePopUp(bigPicture, bigPictureCancel, onButtonCancelClick, onButtonCancelPressEsc);
+      closePopUp();
     }
   }
 
